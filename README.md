@@ -123,6 +123,16 @@ We provide a video demonstration of each attack. All recordings were made in pri
 
 The videos can be found at: https://drive.google.com/drive/folders/1V5h1WPWY368zBUOjq1bUd6bPBc1ai64u?usp=drive_link
 
+The figures below illustrate the impact of these attacks in two representative collaborative settings. In each, the left panel shows the benign shared scene and the right panel shows the same scene after an attacker manipulates client-side state.
+
+![Design review](demo_images/Design%20Review.png)
+
+*Design review: the red tape marks the edge of the robot's danger zone. The attacker moves the tape inward while the robot's actual reach is unchanged, so a worker who trusts the shared marker steps past the safe boundary. This example is from Arkio, a popular MR-based Architecture, Engineering, and and Construction (AEC) design review app.*
+
+![Medical training](demo_images/Medical%20Training.png)
+
+*Medical training: trainees share a 3D patient model with an incision guide placed clear of the aorta and surrounding organs. The attacker relocates the guide over vital organs, leaving the trainee acting on a high-risk cut line.*
+
 ---
 
 # Running the Artifact
