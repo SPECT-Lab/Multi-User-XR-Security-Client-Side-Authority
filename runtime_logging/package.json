@@ -1,0 +1,14 @@
+{
+  "name": "runtime-logging",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "frida-compile runtime_logger.ts -o runtime_logger.js"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^19.1.0",
+    "@types/node": "^22.0.0",
+    "frida-compile": "^19.0.5",
+    "frida-il2cpp-bridge": "^0.13.1",
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,6 @@
+# Host Frida. Pin the core to the bundled gadget/server version (gadget_injection/
+# frida-*-17.9.1-*) so the desktop client matches the device. frida-tools (the
+# CLIs: frida, frida-ps, ...) is versioned separately from frida core, so it is
+# left unpinned and pip picks the newest frida-tools compatible with frida 17.9.1.
+frida==17.9.1
+frida-tools
