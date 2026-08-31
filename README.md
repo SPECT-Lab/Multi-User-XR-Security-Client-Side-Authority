@@ -1,4 +1,4 @@
-# Relay and Betray: Artifact
+# Security Analysis of Client-Side Authority in Multi-User Extended Reality
 
 The artifact contains the reverse engineering pipeline, runtime instrumentation framework, Frida gadget-injection and on-device deployment tooling, Frida attack hook patterns, and attack-demonstration videos for the paper "Relay and Betray: Exploiting Client-Side Trust in Multi-User Mixed Reality".
 
