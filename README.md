@@ -1,6 +1,18 @@
 # Security Analysis of Client-Side Authority in Multi-User Extended Reality
 
-The artifact contains the reverse engineering pipeline, runtime instrumentation framework, Frida gadget-injection and on-device deployment tooling, Frida attack hook patterns, and attack-demonstration videos for the paper "Relay and Betray: Exploiting Client-Side Trust in Multi-User Mixed Reality".
+The artifact contains the reverse engineering pipeline, runtime instrumentation framework, Frida gadget-injection and on-device deployment tooling, Frida attack hook patterns, and attack-demonstration videos for the paper "Relay and Betray: Exploiting Client-Side Trust in Multi-User Mixed Reality", accepted at USENIX Security Symposium 2026.
+
+Please cite our work as follows for any purpose of usage.
+
+```bibtex
+@inproceedings{ali2026relay,
+  title={Relay and Betray: Exploiting Client-Side Authority in Multi-User Mixed Reality},
+  author={Ali, Mutahar and Farrukh, Habiba},
+  booktitle={35th USENIX Security Symposium (USENIX Security 26)},
+  pages={7135--7154},
+  year={2026}
+}
+```
 
 ## Contents
 
@@ -330,6 +342,9 @@ The log lists managed class/method names and SDK fingerprints — use them to fi
 ---
 
 ## Licensing
+
+- Code: [MIT License](LICENSE)
+- Text, figures, and non-code artifacts: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 The bundled Il2CppDumper binaries are from <https://github.com/Perfare/Il2CppDumper> under their own MIT license. The bundled Frida gadget/server binaries are from <https://github.com/frida/frida> under their wxWindows Library Licence.
 
