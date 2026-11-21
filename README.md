@@ -2,7 +2,17 @@
 
 The artifact contains the reverse engineering pipeline, runtime instrumentation framework, Frida gadget-injection and on-device deployment tooling, Frida attack hook patterns, and attack-demonstration videos for the paper "Relay and Betray: Exploiting Client-Side Trust in Multi-User Mixed Reality", accepted at USENIX Security Symposium 2026.
 
-Please cite our work as follows for any purpose of usage.
+Our artifact received all three badges: Available, Functional, and Reproduced.
+
+<p>
+  <img src="badges/available.png" alt="Artifacts Available" height="80">
+  <img src="badges/functional.png" alt="Artifacts Evaluated – Functional" height="80">
+  <img src="badges/reproduced.png" alt="Results Reproduced" height="80">
+</p>
+
+View our [Paper](./Paper.pdf) for more details.
+
+Please cite our work as follows for any purpose of usage:
 
 ```bibtex
 @inproceedings{ali2026relay,
